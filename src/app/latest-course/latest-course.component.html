@@ -1,0 +1,27 @@
+<div class="latestCourseContainer container-fluid">
+    <div class="row bottom_border">
+      <p class="h4">{{ latestCourseTitle }}</p>
+    </div>
+    <div class="row courses p-1">
+      <div class="w-100 overflow-auto">
+        <div class="d-flex flex-row flex-nowrap">
+          @for(course of latestCourses; track course.CourseTitle){
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 flex-shrink-0" style="max-width: 16rem;">
+            <div class="card mt-1 me-3" [ngStyle]="{'background-color':course.bgColor}">
+              <div class="card-body">
+                <h5 class="card-title">{{course.CourseTitle}}</h5>
+                <p class="card-text">
+                  {{course.CoursesCardSummary}}
+                </p>
+                <button href="#" class="btn_startLearning" [ngStyle]="{'background-color':course.bgColor}">
+                  {{ btnName }} <i class="bi bi-arrow-up-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+  

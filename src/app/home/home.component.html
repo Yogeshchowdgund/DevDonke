@@ -1,0 +1,22 @@
+<div class="container-fluid px-5 homeContainer pt-3">
+    <div class="row text-center mt-2">
+        <p class="welcomeMessage"> + Hi There</p>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-8 ">
+            <h1 class="display-3 pt-5">{{homeTagLine1}}</h1>
+            <h1 class="display-3">{{homeTagLine2}}</h1>
+            <button type="button" class="mt-4 btn_explr px-3 py-1">Explore Courses</button>
+        </div>
+        <div class="col-12 col-md-4 ps-0 d-flex justify-content-center align-items-center">
+            @if(this.isLightTheme){
+                <img [src]="lightLogoUrl" alt="logo" class="img-fluid">
+            }@else{
+                <img [src]="darkLogoUrl" alt="logo" class="img-fluid">
+            }
+        </div>
+    </div>
+    <div class="row">
+        <app-latest-course></app-latest-course>
+    </div>
+</div>

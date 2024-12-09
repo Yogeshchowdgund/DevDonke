@@ -1,0 +1,22 @@
+.bottom_border {
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.h4 {
+  color: var(--textColor);
+}
+
+.btn_startLearning {
+  cursor: pointer;
+  border-radius: 500px;
+  border: 1px solid black;
+}
+
+.overflow-auto {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

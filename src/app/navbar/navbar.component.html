@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-light p-0">
+    <div class="container-fluid">
+      @if(this.isLightTheme){
+        <a class="navbar-brand me-0 p-0" routerLink="/home">
+            <img [src]="lightLogoUrl" alt="logo" width="50" height="50" class="me-0 pe-0">
+          </a>
+      }@else{
+        <a class="navbar-brand me-0 p-0" routerLink="/home">
+          <img [src]="darkLogoUrl" alt="logo" width="50" height="50" class="me-0 pe-0">
+        </a>
+      }
+      <a class="navbar-brand" routerLink="/home">{{brandName}}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item py-2">
+            <a class="nav-link active px-3 py-0" aria-current="page" routerLink="/home" routerLinkActive="active">Home</a>
+          </li>        
+          <li class="nav-item dropdown py-2">
+            <a class="nav-link px-3 py-0 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tutorials
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>          
+          <li class="nav-item py-2">
+            <a class="nav-link px-3 py-0" aria-current="page" routerLink="/Blogs" routerLinkActive="active">Blogs</a>
+          </li> 
+          <li class="nav-item py-2">
+            @if(!this.isLightTheme){
+              <i class="bi bi-brightness-high-fill text-light nav-link px-3 py-0" (click)="toggleTheme()"></i>
+            }
+            @else{
+              <i class="bi bi-moon-stars-fill text-dark nav-link px-3 py-0" (click)="toggleTheme()"></i>
+            }   
+          </li> 
+        </ul> 
+      </div>
+    </div>
+  </nav>

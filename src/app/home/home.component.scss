@@ -1,0 +1,20 @@
+.homeContainer{
+    background-color: var(--bgColor);
+}
+.welcomeMessage{
+    color: var(--textColor);
+}
+.display-3{
+    color: var(--textColor);
+}
+.img-fluid{
+    width: 80%;
+}
+.btn_explr{
+    background-color: var(--activebgColor);
+    border: none;
+    color: var(--activeTextColor);
+    border-radius: 500px;
+    font-weight: bold;
+    cursor: pointer;
+}

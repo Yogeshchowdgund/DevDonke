@@ -1,0 +1,19 @@
+.navbar{
+    border-bottom: 1px solid var(--borderColor);
+    background-color:var(--bgColor);
+}
+
+.nav-link{
+    color: var(--textColor);
+}
+
+.navbar-brand{
+    color: var(--textColor);
+}
+
+.active{
+    color: var(--activeTextColor) !important;
+    font-weight: bold;
+    background-color:var(--activebgColor);
+    border-radius: 500px;
+}

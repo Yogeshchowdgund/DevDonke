@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/ngx-spinner/animations/square-jelly-box.css';
+
+$Color_black: black;
+$Color_white: white;
+
+@mixin lighten() {
+    --borderColor: #{$Color_white}; 
+    --bgColor: #{$Color_black};
+    --textColor: #{$Color_white};
+    --activeTextColor:#{$Color_black};
+    --activebgColor:#{$Color_white};
+}
+
+@mixin darken() {
+    --borderColor: #{$Color_black}; 
+    --bgColor: #{$Color_white}; 
+    --textColor: #{$Color_black};
+    --activeTextColor:#{$Color_white};
+    --activebgColor:#{$Color_black};
+}
+
+body.dark {
+    @include darken(); 
+}
+
+body.light {
+    @include lighten(); 
+} 

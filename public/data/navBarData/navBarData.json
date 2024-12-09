@@ -1,0 +1,38 @@
+{
+  "lightLogoURL": "logo/lightDevDonke.png",
+  "darkLogoURL": "logo/darkDevDonke.png",
+  "brandName": "{ DevDonke }",
+  "homeTagLine1": "Building better developers",
+  "homeTagLine2": "one line at a time",
+  "latestCourses": {
+    "title": "Latest Courses",
+    "buttonName": "Start Learning",
+    "Courses": [
+      {
+        "CourseTitle": "HTML",
+        "CoursesCardSummary": "Learn the basics of HTML to build web pages and structure your content ",
+        "bgColor":"#F6F7C4"
+      },
+      {
+        "CourseTitle": "CSS",
+        "CoursesCardSummary": "Master CSS to style and layout web pages, creating visually appealing designs.",
+        "bgColor":"#A1EEBD"
+      },
+      {
+        "CourseTitle": "JavaScript",
+        "CoursesCardSummary": "Learn JavaScript to add interactivity and dynamic content to web pages.",
+        "bgColor":"#F6D6D6"
+      },
+      {
+        "CourseTitle": "Python",
+        "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
+        "bgColor":"#7BD3EA"
+      },
+      {
+        "CourseTitle": "Python Test",
+        "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
+        "bgColor":"#F6F7C4"
+      }
+    ]
+  }
+}
