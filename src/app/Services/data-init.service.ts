@@ -51,6 +51,10 @@ export class DataInitService {
     return this.navBarData.latestCourses;
   }
 
+  getCourses(){
+    return this.navBarData.Courses;
+  }
+
   changeTheme(isLightTheme: boolean): void {
     this.themeSubject.next(isLightTheme);
   }

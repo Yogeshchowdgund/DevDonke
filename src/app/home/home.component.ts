@@ -2,11 +2,12 @@ import { Component, inject ,PLATFORM_ID,Inject} from '@angular/core';
 import { DataInitService } from '../Services/data-init.service';
 import { isPlatformBrowser } from '@angular/common';
 import { LatestCourseComponent } from '../latest-course/latest-course.component';
+import { CoursesComponent } from '../courses/courses.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [LatestCourseComponent],
+  imports: [LatestCourseComponent,CoursesComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
