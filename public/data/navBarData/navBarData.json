@@ -70,7 +70,7 @@
         ]
       },
       {
-        "title":"Web technology",
+        "title":"Backend Technology",
         "chapters":[
           {
             "CourseTitle": "HTML",
@@ -100,5 +100,6 @@
         ]
       }
     ]
-  }
+  },
+  "contactUsImageURL":"contactUs/contactUs.jpeg"
 }

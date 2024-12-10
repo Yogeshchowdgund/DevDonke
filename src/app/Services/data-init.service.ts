@@ -55,6 +55,10 @@ export class DataInitService {
     return this.navBarData.Courses;
   }
 
+  getcontactUsImageURL(){
+    return this.navBarData.contactUsImageURL;
+  }
+
   changeTheme(isLightTheme: boolean): void {
     this.themeSubject.next(isLightTheme);
   }

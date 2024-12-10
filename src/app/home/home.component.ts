@@ -3,21 +3,22 @@ import { DataInitService } from '../Services/data-init.service';
 import { isPlatformBrowser } from '@angular/common';
 import { LatestCourseComponent } from '../latest-course/latest-course.component';
 import { CoursesComponent } from '../courses/courses.component';
+import { ContactUsComponent } from '../contact-us/contact-us.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [LatestCourseComponent,CoursesComponent],
+  imports: [LatestCourseComponent,CoursesComponent,ContactUsComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+  private dataInitService = inject(DataInitService);
   lightLogoUrl: string;
   darkLogoUrl: string;
   isLightTheme: boolean;
   homeTagLine1: string;
   homeTagLine2: string;
-  private dataInitService = inject(DataInitService);
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {
     this.lightLogoUrl = this.dataInitService.getlightLogoUrl();
     this.darkLogoUrl = this.dataInitService.getdarkLogoUrl();

@@ -1,0 +1,43 @@
+<div class="contactUsContainer container-fluid">
+    <div class="row title">
+      <h4 class="h4" style="margin-bottom: 0;">Contact us</h4>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" formControlName="name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              formControlName="email"
+              placeholder="name@example.com"
+            />
+            <div *ngIf="email.invalid && email.touched" class="text-danger">
+              Please enter a valid email.
+            </div>
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" formControlName="message"></textarea>
+          </div>
+          <button type="submit" class="mt-4 btn_submit px-3 py-1" [disabled]="contactForm.invalid">
+            Submit
+          </button>
+        </form>
+      </div>
+      <div class="col-2 border-end"></div>
+      <div class="col-12 col-md-5 ps-0 d-flex justify-content-center align-items-start">
+        <img [src]="contactUsImageURL" alt="logo" class="img-fluid w-75" >
+      </div>
+    </div>
+  </div>
+  

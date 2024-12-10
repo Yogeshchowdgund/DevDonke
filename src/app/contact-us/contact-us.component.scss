@@ -1,0 +1,24 @@
+.title{
+    color: var(--textColor);
+}
+
+.btn_submit{
+    background-color: var(--activebgColor);
+    border: none;
+    color: var(--activeTextColor);
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-label{
+    color: var(--textColor);
+}
+
+.form-text{
+    color: var(--textColor);
+}
+
+.form-control{
+    border: 1px solid var(--borderColor);
+}
