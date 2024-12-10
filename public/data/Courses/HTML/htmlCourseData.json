@@ -1,0 +1,23 @@
+{
+    "subjectName":"HTML",
+    "chapters":
+    [
+        {
+            "title":"HTML introduction",
+            "Content":[
+                {
+                    "paragraph":"HTML (HyperText Markup Language) is the foundational language for creating and structuring content on the web. It uses a system of elements, often referred to as",
+                    "img":"Data/Courses/HTML/img1.png"
+                },
+                {
+                    "paragraph":"HTML (HyperText Markup Language) is the foundational language for creating and structuring content on the web. It uses a system of elements, often referred to as",
+                    "img":null
+                },
+                {
+                    "paragraph":"HTML (HyperText Markup Language) is the foundational language for creating and structuring content on the web. It uses a system of elements, often referred to as",
+                    "img":null
+                }
+            ]
+        }
+    ]
+}

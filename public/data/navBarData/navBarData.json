@@ -11,27 +11,32 @@
       {
         "CourseTitle": "HTML",
         "CoursesCardSummary": "Learn the basics of HTML to build web pages and structure your content ",
-        "bgColor":"#F6F7C4"
+        "bgColor":"#F6F7C4",
+        "path":"data/navBarData/navBarData.json"
       },
       {
         "CourseTitle": "CSS",
         "CoursesCardSummary": "Master CSS to style and layout web pages, creating visually appealing designs.",
-        "bgColor":"#A1EEBD"
+        "bgColor":"#A1EEBD",
+        "path":null
       },
       {
         "CourseTitle": "JavaScript",
         "CoursesCardSummary": "Learn JavaScript to add interactivity and dynamic content to web pages.",
-        "bgColor":"#F6D6D6"
+        "bgColor":"#F6D6D6",
+        "path":null
       },
       {
         "CourseTitle": "Python",
         "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
-        "bgColor":"#7BD3EA"
+        "bgColor":"#7BD3EA",
+        "path":null
       },
       {
         "CourseTitle": "Python Test",
         "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
-        "bgColor":"#F6F7C4"
+        "bgColor":"#F6F7C4",
+        "path":null
       }
     ]
   },
@@ -45,27 +50,32 @@
           {
             "CourseTitle": "HTML",
             "CoursesCardSummary": "Learn the basics of HTML to build web pages and structure your content ",
-            "bgColor":"#F6F7C4"
+            "bgColor":"#F6F7C4",
+            "path":"data/navBarData/navBarData.json"
           },
           {
             "CourseTitle": "CSS",
             "CoursesCardSummary": "Master CSS to style and layout web pages, creating visually appealing designs.",
-            "bgColor":"#A1EEBD"
+            "bgColor":"#A1EEBD",
+            "path":null
           },
           {
             "CourseTitle": "JavaScript",
             "CoursesCardSummary": "Learn JavaScript to add interactivity and dynamic content to web pages.",
-            "bgColor":"#F6D6D6"
+            "bgColor":"#F6D6D6",
+            "path":null
           },
           {
             "CourseTitle": "Python",
             "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
-            "bgColor":"#7BD3EA"
+            "bgColor":"#7BD3EA",
+            "path":null
           },
           {
             "CourseTitle": "Python Test",
             "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
-            "bgColor":"#F6F7C4"
+            "bgColor":"#F6F7C4",
+            "path":null
           }
         ]
       },
@@ -75,27 +85,32 @@
           {
             "CourseTitle": "HTML",
             "CoursesCardSummary": "Learn the basics of HTML to build web pages and structure your content ",
-            "bgColor":"#F6F7C4"
+            "bgColor":"#F6F7C4",
+            "path":"data/navBarData/navBarData.json"
           },
           {
             "CourseTitle": "CSS",
             "CoursesCardSummary": "Master CSS to style and layout web pages, creating visually appealing designs.",
-            "bgColor":"#A1EEBD"
+            "bgColor":"#A1EEBD",
+             "path":null
           },
           {
             "CourseTitle": "JavaScript",
             "CoursesCardSummary": "Learn JavaScript to add interactivity and dynamic content to web pages.",
-            "bgColor":"#F6D6D6"
+            "bgColor":"#F6D6D6",
+            "path":null
           },
           {
             "CourseTitle": "Python",
             "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
-            "bgColor":"#7BD3EA"
+            "bgColor":"#7BD3EA",
+            "path":null
           },
           {
             "CourseTitle": "Python Test",
             "CoursesCardSummary": "Learn Python programming for web development, data science, and automation.",
-            "bgColor":"#F6F7C4"
+            "bgColor":"#F6F7C4",
+            "path":null
           }
         ]
       }
